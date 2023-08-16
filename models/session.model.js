@@ -18,4 +18,4 @@ const sessionSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Sessions = mongoose.model("KanBanSession", sessionSchema);
+export const Sessions = mongoose.model("taskmanagerSession", sessionSchema);

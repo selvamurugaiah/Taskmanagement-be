@@ -16,4 +16,4 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-export const Users = mongoose.model("KanBanUser", userSchema);
+export const Users = mongoose.model("taskmanagerUser", userSchema);

@@ -20,4 +20,4 @@ const taskSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-export const Tasks = mongoose.model("KanBanTask", taskSchema);
+export const Tasks = mongoose.model("taskmanagerTask", taskSchema);

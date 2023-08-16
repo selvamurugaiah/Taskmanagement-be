@@ -19,6 +19,6 @@ const subscriptionSchema = new mongoose.Schema(
 );
 
 export const Subscriptions = mongoose.model(
-  "KanBanSubscription",
+  "taskmanagerSubscription",
   subscriptionSchema
 );
